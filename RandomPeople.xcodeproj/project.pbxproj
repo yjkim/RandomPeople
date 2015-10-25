@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		942C4B461BDD33D40045E281 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942C4B451BDD33D40045E281 /* RootViewController.swift */; };
+		942C4B471BDD33D40045E281 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942C4B451BDD33D40045E281 /* RootViewController.swift */; };
+		942C4B481BDD33D40045E281 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942C4B451BDD33D40045E281 /* RootViewController.swift */; };
+		944A10721BDCAD2E008E2538 /* AWPerson+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A10701BDCAD2E008E2538 /* AWPerson+CoreDataProperties.swift */; };
+		944A10731BDCAD2E008E2538 /* AWPerson+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A10701BDCAD2E008E2538 /* AWPerson+CoreDataProperties.swift */; };
+		944A10741BDCAD2E008E2538 /* AWPerson+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A10701BDCAD2E008E2538 /* AWPerson+CoreDataProperties.swift */; };
+		944A10751BDCAD2E008E2538 /* AWPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A10711BDCAD2E008E2538 /* AWPerson.swift */; };
+		944A10761BDCAD2E008E2538 /* AWPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A10711BDCAD2E008E2538 /* AWPerson.swift */; };
+		944A10771BDCAD2E008E2538 /* AWPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A10711BDCAD2E008E2538 /* AWPerson.swift */; };
 		94B2CBBC1BDCAB510035F2C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B2CBBB1BDCAB510035F2C6 /* AppDelegate.swift */; };
-		94B2CBBE1BDCAB510035F2C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B2CBBD1BDCAB510035F2C6 /* ViewController.swift */; };
 		94B2CBC11BDCAB510035F2C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B2CBBF1BDCAB510035F2C6 /* Main.storyboard */; };
 		94B2CBC41BDCAB510035F2C6 /* RandomPeople.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94B2CBC21BDCAB510035F2C6 /* RandomPeople.xcdatamodeld */; };
 		94B2CBC61BDCAB510035F2C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B2CBC51BDCAB510035F2C6 /* Assets.xcassets */; };
@@ -35,9 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		942C4B451BDD33D40045E281 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		944A10701BDCAD2E008E2538 /* AWPerson+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AWPerson+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		944A10711BDCAD2E008E2538 /* AWPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWPerson.swift; sourceTree = "<group>"; };
 		94B2CBB81BDCAB510035F2C6 /* RandomPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B2CBBB1BDCAB510035F2C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		94B2CBBD1BDCAB510035F2C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		94B2CBC01BDCAB510035F2C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94B2CBC31BDCAB510035F2C6 /* RandomPeople.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RandomPeople.xcdatamodel; sourceTree = "<group>"; };
 		94B2CBC51BDCAB510035F2C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,12 +110,14 @@
 			isa = PBXGroup;
 			children = (
 				94B2CBBB1BDCAB510035F2C6 /* AppDelegate.swift */,
-				94B2CBBD1BDCAB510035F2C6 /* ViewController.swift */,
 				94B2CBBF1BDCAB510035F2C6 /* Main.storyboard */,
 				94B2CBC51BDCAB510035F2C6 /* Assets.xcassets */,
 				94B2CBC71BDCAB510035F2C6 /* LaunchScreen.storyboard */,
 				94B2CBCA1BDCAB510035F2C6 /* Info.plist */,
 				94B2CBC21BDCAB510035F2C6 /* RandomPeople.xcdatamodeld */,
+				944A10701BDCAD2E008E2538 /* AWPerson+CoreDataProperties.swift */,
+				944A10711BDCAD2E008E2538 /* AWPerson.swift */,
+				942C4B451BDD33D40045E281 /* RootViewController.swift */,
 			);
 			path = RandomPeople;
 			sourceTree = "<group>";
@@ -259,8 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94B2CBBE1BDCAB510035F2C6 /* ViewController.swift in Sources */,
+				944A10751BDCAD2E008E2538 /* AWPerson.swift in Sources */,
+				942C4B461BDD33D40045E281 /* RootViewController.swift in Sources */,
 				94B2CBC41BDCAB510035F2C6 /* RandomPeople.xcdatamodeld in Sources */,
+				944A10721BDCAD2E008E2538 /* AWPerson+CoreDataProperties.swift in Sources */,
 				94B2CBBC1BDCAB510035F2C6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				942C4B471BDD33D40045E281 /* RootViewController.swift in Sources */,
+				944A10731BDCAD2E008E2538 /* AWPerson+CoreDataProperties.swift in Sources */,
 				94B2CBD41BDCAB510035F2C6 /* RandomPeopleTests.swift in Sources */,
+				944A10761BDCAD2E008E2538 /* AWPerson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +294,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				942C4B481BDD33D40045E281 /* RootViewController.swift in Sources */,
+				944A10741BDCAD2E008E2538 /* AWPerson+CoreDataProperties.swift in Sources */,
 				94B2CBDF1BDCAB510035F2C6 /* RandomPeopleUITests.swift in Sources */,
+				944A10771BDCAD2E008E2538 /* AWPerson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +508,7 @@
 				94B2CBE51BDCAB510035F2C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94B2CBE61BDCAB510035F2C6 /* Build configuration list for PBXNativeTarget "RandomPeopleTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +517,7 @@
 				94B2CBE81BDCAB510035F2C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94B2CBE91BDCAB510035F2C6 /* Build configuration list for PBXNativeTarget "RandomPeopleUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +526,7 @@
 				94B2CBEB1BDCAB510035F2C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
